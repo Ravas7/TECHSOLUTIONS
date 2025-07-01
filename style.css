@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("https://img.freepik.com/vetores-gratis/fundo-preto-estilo-3d-com-camada-de-papel_206725-669.jpg?semt=ais_hybrid&w=740");
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #00d9a6;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    article, aside, nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    h3 {
+      color: #00d9a6;
+      margin-top: 20px;
+    }
+
+    ol li, ul li {
+      font-weight: bold;
+      margin-top: 15px;
+      color: #f0f0f0;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #00d9a6;
+      text-decoration: none;
+      margin-right: 15px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 5px #00ffd5;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      margin: 10px auto;
+      display: block;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
